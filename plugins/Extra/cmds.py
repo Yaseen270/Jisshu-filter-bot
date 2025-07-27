@@ -39,7 +39,7 @@ async def set_commands(client, message):
 @Client.on_message(filters.command("admin_cmds") & filters.user(ADMINS))
 async def admin_cmds_handler(client, message):
     try:
-        admin_footer = "\n\nAll These Commands Can Be Used Only By Admins.\n⚡ Powered by @JISSHU_BOTS"        
+        admin_footer = "\n\nAll These Commands Can Be Used Only By Admins.\n⚡ Powered by @YABOTZ"        
         commands_list = "\n".join(f"{i+1}. {cmd}" for i, cmd in enumerate(admin_cmds))
         sent_message = await message.reply(
             f"<b>Admin All Commands [auto delete in 2 minutes] 👇</b>\n\n{commands_list}{admin_footer}"
