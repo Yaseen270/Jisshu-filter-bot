@@ -28,7 +28,7 @@ USERNAME = environ.get('USERNAME', "SearchCenteradminbot") # ADMIN USERNAME
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002408526695').split()]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002767687123'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002345697971'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002240638120'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002240638120'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002240638120')) 
