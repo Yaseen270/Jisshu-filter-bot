@@ -28,7 +28,7 @@ USERNAME = environ.get('USERNAME', "SearchCenteradminbot") # ADMIN USERNAME
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002408526695').split()]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002345697971'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002767687123'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002240638120'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002240638120'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002240638120')) 
@@ -54,17 +54,17 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '1002675684326')
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/YAMovieFlix')
 
 # Verification
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/yamovieflixdownload")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/yamovieflixdownload")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/yamovieflixdownload")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "aa13b16ab9299d129e56b6f6a8335374fd8cb188")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'droplink.co')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "aa13b16ab9299d129e56b6f6a8335374fd8cb188")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'droplink.co')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "aa13b16ab9299d129e56b6f6a8335374fd8cb188")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'droplink.co')
+SHORTENER_API = environ.get("SHORTENER_API", "fc2e0e9d467575e658817e4e27118ec57c048e46")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'teraboxlinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "fc2e0e9d467575e658817e4e27118ec57c048e46")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'teraboxlinks.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "fc2e0e9d467575e658817e4e27118ec57c048e46")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'teraboxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "3600"))
 
